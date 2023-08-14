@@ -77,7 +77,6 @@ const Player = () => {
                     <button type="button" className="btn rounded-circle btn-light mx-1" onClick={() => nextSong()}><i className="fas fa-step-forward"></i></button>
                 </div>    
             </div>
-            {/*Elemento donde se reproducirán las canciones*/}
             <audio ref={myAudio} src="" onEnded={() => nextSong()} type="audio" hidden></audio>
 		</div>
 	);
